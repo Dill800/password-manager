@@ -244,12 +244,12 @@ public class UI extends Application {
 		
 		HBox pass = new HBox();
 		pass.setAlignment(Pos.CENTER);
-		TextField password = new TextField();
+		PasswordField password = new PasswordField();
 		pass.getChildren().addAll(new Label("Password: "), password);
 		
 		HBox key = new HBox();
 		key.setAlignment(Pos.CENTER);
-		TextField keyField = new TextField();
+		PasswordField keyField = new PasswordField();
 		key.getChildren().addAll(new Label("PIN: "), keyField);
 		
 		Button add = new Button("Add");
