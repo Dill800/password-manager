@@ -12,7 +12,7 @@ public class Data implements Serializable {
 	private String username;
 	private String password;
 	
-	String[] chain;
+	transient String[] chain;
 	
 	public Data(String description, String username, String password, String pin) {
 		
